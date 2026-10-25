@@ -1,69 +1,48 @@
-# -- Main Menu --
-# The main menu is displayed in the header at the top of the page.
-# Acceptable parameters are name, pageRef, page, url, title, weight.
-# 
-# The simplest menu configuration is to provide:
-#   name = The name to be displayed for this menu link
-#   pageRef = The identifier of the page or section to link to
-#
-# By default the menu is ordered alphabetically. This can be
-# overridden by providing a weight value. The menu will then be
-# ordered by weight from lowest to highest.
+[[main]]
+none = "none"
 
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
-#  weight = 10
+[[main]]
+name = "Equipment"
+url = "https://eq.slothmud.net"
+identifier = "tja1aQHX0F"
+weight = 2
 
-#[[main]]
-#  name = "Parent"
-#  weight = 20
+[[main]]
+name = "Live"
+url = "https://live.slothmud.net"
+identifier = "E8MYGAT9ZF"
+weight = 1
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+name = "Maps"
+url = "https://maps.slothmud.net"
+identifier = "zbdAgZvZFw"
+weight = 3
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+name = "Quests"
+url = "https://quests.slothmud.net"
+identifier = "1uetG4VHV5"
+weight = 4
 
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
+[[main]]
+name = "Docs"
+url = "https://docs.slothmud.net"
+identifier = "PT5PCi3YVL"
+weight = 5
 
-#[[subnavigation]]
-#  name = "My Awesome Category"
-#  pre = "github"
-#  pageRef = "categories/awesome"
-#  weight = 20
+[[main]]
+name = "Discord"
+pre = "discord"
+url = "https://discord.com/channels/661920014374404097/661920014374404100"
+identifier = "aQfWzFM871"
+weight = 7
 
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
+[[main]]
+name = "Forum"
+url = "https://forum.slothmud.net"
+identifier = "WSiy0ecgvt"
+weight = 6
 
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
-
-
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
-
-
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
-
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+[[footer]]
+none = "none"
